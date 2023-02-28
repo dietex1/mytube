@@ -1,0 +1,178 @@
+.search-button {
+  height: 38px;
+  width: 64px;
+  background-color: rgb(238, 238, 238);
+  border: 1px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  margin-left: -1px;
+  margin-right: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.search-button .tooltip {
+  background-color: gray;
+  position: absolute;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover {
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgb(230, 230, 230);
+  border-color: rgb(230, 230, 230);
+  margin-left: -1px;
+  margin-right: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.voice-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.voice-button .tooltip {
+  background-color: gray;
+  position: absolute;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -21px;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.voice-button:hover {
+  background-color: rgb(230, 230, 230);
+  transition: background-color 0.3s, color 0.3s;
+}
+.menu-btn {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  background-color: rgb(230, 230, 230);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.notification-btn {
+  height: 40px;
+  width: 40px;
+  /* margin-right: 15px; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.notification-btn:hover {
+  background-color: rgb(230, 230, 230);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.upload-btn {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.upload-btn:hover {
+  background-color: rgb(230, 230, 230);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.user-btn {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn-all {
+  border-radius: 4px;
+  cursor: pointer;
+  border-style: solid;
+  margin-right: 8px;
+  margin-top: 8px;
+  padding: 7px 11px;
+}
+
+#sub-btn {
+  background-color: rgb(205, 9, 9);
+  color: white;
+  border: none;
+  transition: opacity 0.4s;
+}
+#sub-btn:hover {
+  opacity: 0.82;
+}
+#sub-btn:active {
+  opacity: 0.5;
+}
+
+#join-btn {
+  background-color: white;
+  border-color: rgb(0, 162, 255);
+  border-width: 1px;
+  color: rgb(0, 162, 255);
+  font-size: 80%;
+  transition: background-color 0.5s, color 0.5s;
+}
+#join-btn:hover {
+  background-color: rgb(0, 162, 255);
+  color: white;
+}
+#join-btn:active {
+  opacity: 0.7;
+}
+
+#tweet-btn {
+  border-radius: 30px;
+  background-color: rgb(40, 186, 254);
+  border-color: rgb(40, 186, 254);
+  color: white;
+  margin-right: 0px;
+  font-weight: bold;
+  transition: box-shadow 0.7s;
+}
+#tweet-btn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+}

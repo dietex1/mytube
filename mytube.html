@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="mytube-styles/video-blocks.css" />
+    <link rel="stylesheet" href="mytube-styles/buttons.css" />
+    <link rel="stylesheet" href="mytube-styles/header.css" />
+    <link rel="stylesheet" href="mytube-styles/general.css" />
+    <link rel="stylesheet" href="mytube-styles/sidebar.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTube</title>
+  </head>
+
+  <body>
+    <nav class="header">
+      <div class="left-section">
+        <button class="menu-btn">
+          <img class="menu-style" src="icons/menu.svg" />
+        </button>
+        <img class="mytube-logo" src="icons/mytube-logo.jpg" />
+      </div>
+      <div class="center-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img class="voice-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <button class="upload-btn">
+          <img class="upload-icon" src="icons/upload.svg" />
+        </button>
+        <div class="notifications-box">
+          <button class="notification-btn">
+            <img class="notofications-icon" src="icons/notifications.svg" />
+            <div class="notifications-count">7</div>
+          </button>
+        </div>
+        <button class="user-btn">
+          <img class="user-icon" src="logos/DieTex.jpg" />
+        </button>
+      </div>
+    </nav>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img id="shorts" src="icons/shorts.png" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/beach-g3cfa6bc35_1920.jpg" />
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download.png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Nature's Symphony</p>
+              <p class="video-author">Sparky</p>
+              <p class="video-stats">6.4K views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/castle-g063727cf1_1920.jpg" />
+            <div class="video-time">17:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (1).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Sunrise over the Mountains</p>
+              <p class="video-author">Scooter</p>
+              <p class="video-stats">1.2M views &#183; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img
+              class="photoground"
+              src="photos/elephant-ga1915779c_1920.jpg"
+            />
+            <div class="video-time">07:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (2).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Wildlife in Action</p>
+              <p class="video-author">Bubbles</p>
+              <p class="video-stats">2.1M views &#183; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/flamenco-1551386.jpg" />
+            <div class="video-time">10:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (3).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">The Changing of Seasons</p>
+              <p class="video-author">Ace</p>
+              <p class="video-stats">532 views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/flowers-g602abd36a_1280.jpg" />
+            <div class="video-time">34:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (4).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Bird Watching</p>
+              <p class="video-author">Maverick</p>
+              <p class="video-stats">26.8K views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/flowers-g996320a65_1920.jpg" />
+            <div class="video-time">08:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (5).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Waterfall Wonderland</p>
+              <p class="video-author">Twinkle</p>
+              <p class="video-stats">12.3K views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/forest-g6361d744e_1920.jpg" />
+            <div class="video-time">22:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (6).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">The Power of Storms</p>
+              <p class="video-author">Flash</p>
+              <p class="video-stats">1.2M views &#183; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img
+              class="photoground"
+              src="photos/hd-wallpaper-g8e8be4790_1920.jpg"
+            />
+            <div class="video-time">07:07</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (7).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">A Day at the Beach</p>
+              <p class="video-author">Jazzy</p>
+              <p class="video-stats">2.9M views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img
+              class="photoground"
+              src="photos/hd-wallpaper-ga52127557_1920.jpg"
+            />
+            <div class="video-time">13:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (8).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">The Majesty of Trees</p>
+              <p class="video-author">Kiki</p>
+              <p class="video-stats">1.5M views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/lake-gbf03e1215_1280.jpg" />
+            <div class="video-time">02:28</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (9).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Rocky Mountainside</p>
+              <p class="video-author">Gator</p>
+              <p class="video-stats">260.8K views &#183; 9 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img
+              class="photoground"
+              src="photos/naive-urban-painting-cityscape-landscape-paintings-by-raphael-perez-israeli-painter-1639099.jpg"
+            />
+            <div class="video-time">12:10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (10).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Nature's Textures</p>
+              <p class="video-author">Noodle</p>
+              <p class="video-stats">632 views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="phground-row">
+            <img class="photoground" src="photos/stones-g3b0e5903b_1920.jpg" />
+            <div class="video-time">16:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-logo">
+              <img class="profile-picture" src="logos/download (11).png" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Uncovering the Beauty of Stones: A Journey Through Geology and
+                Aesthetics
+              </p>
+              <p class="video-author">Zeus</p>
+              <p class="video-stats">22.1M views &#183; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
